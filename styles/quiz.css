@@ -149,7 +149,7 @@
   }
   .video-div .x-image{
     position:absolute;
-    right:60px;
+    right:0;
     top:0;
     z-index:1;
     filter:invert(1);
