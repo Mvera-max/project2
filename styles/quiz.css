@@ -151,6 +151,8 @@
     position:absolute;
     right:60px;
     top:0;
+    z-index:1;
+    filter:invert(1);
   }
 
   .x-image{
