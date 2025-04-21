@@ -1,0 +1,120 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  background: var(--whitish-yellow);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1{
+  font-family:roboto;
+}
+
+.todo{
+  background: var(--main-bg);
+  width: 100%;
+  padding:0 1em;
+}
+#todo-section {
+  position:absolute;
+  top:0;
+  width:90%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-family: sans-serif;
+}
+
+.input-btn-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+input[type="text"]{
+  padding: 0.7em 1em;
+  flex:1;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  font-family: manrope;
+}
+input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+
+#add-task-btn {
+  padding: 0.7em 1.2em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-family:  roboto;
+  transition: all 0.2s;
+}
+
+#add-task-btn:hover {
+  transform: scale(1.05);
+  background-color: #0056b3;
+}
+
+#add-task-btn:active{
+  transform: scale(0.9);
+}
+
+#todo-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-family: manrope;
+}
+
+.todo{
+  width: 98%;
+  display: flex;
+  margin-bottom:6px ;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--box-shadow);
+}
+.second{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:50px
+}
+
+.delete-btn{
+  color:white;
+  border:none;
+  background: rgb(171, 2, 2);
+  padding:0.5em 1.5em 0.5em 1.5em;
+  border-radius: 2px;
+}
+
+.second button{
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.done-btn{
+  background-color: green;
+  color:white;
+  padding:0.5em 1.5em 0.5em 1.5em;
+  font-family: delius;
+  border:none;
+  border-radius:2px;
+}
+
+.done-btn:active, .x-button:active{
+  transform: scale(0.9);
+};

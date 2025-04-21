@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;"> 
+  <head>
+    <title>Main body</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="stylesheet" href="styles/responsiveness.css">
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="stylesheet" href="styles/feel.css">
+    <link rel="stylesheet" href="styles/jokes.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Dawning+of+a+New+Day&family=Delius&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Marcellus&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Winky+Sans:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-left">
+        <img class="profile-icon" src="15339256.png" alt="Profile">
+
+      </div>
+    
+      <div class="nav-center">
+        <div class="search-bar">
+          <input type="text" id="nav-input" placeholder="How are you feeling today?">
+         <img class="icon" src="15059690.png" alt="Enter">
+        </div>
+      </div>
+    
+      <div class="nav-right">
+        
+         <ul class="nav-links">
+          <li><a href="#">Mood Tracker</a></li>
+          <div class="score-tooltip">
+            <li><a href="#">Scores</a></li>
+            <div class="tooltip">Check your scores</div>
+          </div>
+          <div class="profile-tooltip">
+            <li><a href="#" class="prf">Profile</a></li>
+            <div class="tooltip">Check profile</div>
+          </div>
+         
+        </ul>
+        <div class="button-tooltip">
+        <button id="theme-toggle">🌙</button>
+        <div class="tooltip">Change theme</div>
+      </div>
+
+        <div class="home-tooltip">
+          <img class="home-icon" src="home-icon-vector.jpg" alt="Home">
+        <div class="tooltip">Home</div>
+        </div>
+        
+     
+      
+        <!--
+        <img class="profile-icon" src="images/70a28229-cb84-4c65-b834-bc6e0d9332d2~1.jpg" alt="Profile">
+        --> 
+      </div>
+    </nav>
+    <main>
+      <section>
+        <div>
+          <h3>Todo list</h3>
+          <p>Create a todo list to track your goals and acheivements during the day😁</p>
+        </div>
+        <button class="button-1">Create todo list</button>
+      </section>
+
+      <section>
+        <div>
+          <h3>Happy Hour</h3>
+          <p>Eager for some laughs? Click below👀. Disclaimer:Humour is subvjective</p>
+        </div>
+        <button class="button-2">Make me laugh</button>
+      </section>
+
+      <section>
+        <div>
+          <h3>Trivia</h3>
+          <p>Test your knowledge in diverse topics and see if you actually have a brain in that big head of yours😂</p>
+        </div>
+        <button class="button-3">Accept Challenge</button>
+      </section>
+
+    <section id="quiz-section" style="display: none;"></section>
+    
+    <section class="feelings-section" style="display: none;">
+      <p class="displayer"></p>
+    </section>
+    </main>
+
+  <!--<video width="100%" controls>
+      <source src="rickroll.mp4" type="video/mp4">
+    </video>--> 
+    
+
+    <script src="scripts/quiz.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/nav.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+.feelings-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  height:60vh;
+  width: 100%;
+}
+p{
+  text-align: center;
+}
