@@ -12,6 +12,7 @@ nav{
   font-family:roboto, sans-serif ;
   left:0;
   top:0;
+  right:0;
   z-index: 100; 
   gap:20px;
 }
