@@ -232,9 +232,9 @@ function showFinalScore(){
  if(score === 5){
   document.getElementById('reward-btn').addEventListener('click', () => {
     quizSection.innerHTML=`
-    /<div class="video-div">
+    <div class="video-div">
       <img class="x-image" src="image.png">
-    <video width="70%" autoplay>
+    <video width="100%" autoplay>
       <source src="rickroll.mp4" type="video/mp4">
     </video>
     </div>
